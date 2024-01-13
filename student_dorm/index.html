@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Dormitory Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Registration Form</h1>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label for="StudentID">StudentID</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="StudentID"
+                  name="StudentID"
+                />
+              </div>
+              <div class="form-group">
+                <label for="StudentName">Student Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="StudentName"
+                  name="StudentName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="ContactNumber">Contact Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="ContactNumber"
+                  name="ContactNumber"
+                />
+              </div>
+              <div class="form-group">
+                <label for="RoomNumber">Room Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="RoomNumber"
+                  name="RoomNumber"
+                />
+              </div>
+              <div class="form-group">
+                <label for="StayingID">Staying ID</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="StayingID"
+                  name="StayingID"
+                />
+              </div>
+              <input type="submit" class="btn btn-primary" />
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+            <small>&copy; </small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    `<button id="getAdminQuery">Click Me</button>`Get Administrator Details</button>
+    <div id="showAdmin"></div>
+
+    `<button id="roomDetailsQuery">Click Me</button>`Get Room 1 Details</button>
+    <div id="roomDetails"></div>
+
+    `<button id="roomDetailsQuery2">Click Me</button>`Get Every Room Details Specification</button>
+    <div id="roomDetails2"></div>
+
+    `<button id="studentPayment">Click Me</button>`Get Specifications for Student's Payment</button>
+    <div id="studentPay"></div>
+
+    `<button id="studentOnDorm">Click Me</button>`Get Specifications for Student's Who Is Currently On Dorm</button>
+    <div id="studentOnDormitory"></div>
+
+    `<button id="studentNumRT">Click Me</button>`Get Number of Students On Room Type</button>
+    <div id="studentRT"></div>
+
+    `<button id="adminPayment">Click Me</button>`Get Number of Students Handled By Admin</button>
+    <div id="adminPay"></div>
+
+    `<button id="EarningRT">Click Me</button>`Get Number Of Earnings By Room Type</button>
+    <div id="EarnRT"></div>
+
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="main.js"></script>
+
+  </body>
+</html>
